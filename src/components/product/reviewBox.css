@@ -1,0 +1,32 @@
+.review-box-container {
+  width: 70%;
+  height: 50%;
+  position: absolute;
+  background-color: #ffecb3;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  top: 10rem;
+  left: 10rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.close-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: #febd69;
+  height: 2rem;
+  width: 2rem;
+  color: #fafafa;
+}
+.submit-review {
+  width: 30%;
+  border: none;
+  background-color: #febd69;
+  border-radius: 5px;
+  color: #fafafa;
+}
